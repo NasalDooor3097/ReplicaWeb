@@ -11,7 +11,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav> 
+            <ul class="navegacion">
+                <li><a href="index.html" target="paginas"><strong>Signos</strong></a></li>
+                <li><a href="/public/paginas/juegos.html" target="paginas"><strong>Mini juegos</strong></a></li>
+            </ul>
+        </nav>
+        <ul class="lista-signos">
+            <li class="signo-zodiacal" id="signo1"><h3>Acuario</h3><a href="#info_1"><img src="/public/img/acuario.png" alt="" class="img" id="img1"></a></li>
+            <li class="signo-zodiacal" id="signo2"><h3>Piscis</h3><a href="#info_3"><img src="/public/img/piscis.png" alt="" class="img" id="img2"></a></li>
+            <li class="signo-zodiacal" id="signo3"><h3>Aries</h3><a href="#info_5"><img src="/public/img/aries.png" alt="" class="img" id="img3"></a></li>
+            <li class="signo-zodiacal" id="signo4"><h3>Tauro</h3><a href="#info_7"><img src="/public/img/tauro.png" alt="" class="img" id="img4"></a></li>
+            <li class="signo-zodiacal" id="signo5"><h3>Geminis</h3><a href="#info_9"><img src="/public/img/geminis.png" alt="" class="img" id="img5"></a></li>
+            <li class="signo-zodiacal" id="signo6"><h3>Cancer</h3><a href="#info_11"><img src="/public/img/cancer.png" alt="" class="img" id="img6"></a></li>
+            <li class="signo-zodiacal" id="signo7"><h3>Leo</h3><a href="#info_13"><img src="/public/img/leo.png" alt="" class="img" id="img7"></a></li>
+            <li class="signo-zodiacal" id="signo8"><h3>Virgo</h3><a href="#info_15"><img src="/public/img/virgo.png" alt="" class="img" id="img8"></a></li>
+            <li class="signo-zodiacal" id="signo9"><h3>Libra</h3><a href="#info_17"><img src="/public/img/libra.png" alt="" class="img" id="img9"></a></li>
+            <li class="signo-zodiacal" id="signo10"><h3>Escorpio</h3><a href="#info_19"><img src="/public/img/escorpio.png" alt="" class="img" id="img10"></a></li>
+            <li class="signo-zodiacal" id="signo11"><h3>Sagitario</h3><a href="#info_21"><img src="/public/img/sagitario.png" alt="" class="img" id="img11"></a></li>
+            <li class="signo-zodiacal" id="signo12"><h3>Capricornio</h3><a href="#info_23"><img src="/public/img/capricornio.png" alt="" class="img" id="img12"></a></li>
+        </ul>
+    </header>
 
+
+    <article>
+        
+        
     <div class="burbuja">
         <span style="--i:15;"></span>
         <span style="--i:14;"></span>
@@ -66,306 +92,633 @@
         <span style="--i:11;"></span>
     </div>
 
-    <nav>
-        <ul class="navegacion">
-            <li><a href="index.html" target="paginas"><strong>Signos</strong></a></li>
-            <li><a href="/public/paginas/juegos.html" target="paginas"><strong>Mini juegos</strong></a></li>
-        </ul>
-    </nav>
 
-    <header>
-        <ul class="lista-signos">
-            <li class="signo-zodiacal" id="signo1"><h3>Acuario</h3><a href="#info_1"><img src="/public/img/acuario.png" alt="" class="img" id="img1"></a></li>
-            <li class="signo-zodiacal" id="signo2"><h3>Piscis</h3><a href="#info_3"><img src="/public/img/piscis.png" alt="" class="img" id="img2"></a></li>
-            <li class="signo-zodiacal" id="signo3"><h3>Aries</h3><a href="#info_5"><img src="/public/img/aries.png" alt="" class="img" id="img3"></a></li>
-            <li class="signo-zodiacal" id="signo4"><h3>Tauro</h3><a href="#info_7"><img src="/public/img/tauro.png" alt="" class="img" id="img4"></a></li>
-            <li class="signo-zodiacal" id="signo5"><h3>Geminis</h3><a href="#info_9"><img src="/public/img/geminis.png" alt="" class="img" id="img5"></a></li>
-            <li class="signo-zodiacal" id="signo6"><h3>Cancer</h3><a href="#info_11"><img src="/public/img/cancer.png" alt="" class="img" id="img6"></a></li>
-            <li class="signo-zodiacal" id="signo7"><h3>Leo</h3><a href=""><img src="/public/img/leo.png" alt="" class="img" id="img7"></a></li>
-            <li class="signo-zodiacal" id="signo8"><h3>Virgo</h3><a href=""><img src="/public/img/virgo.png" alt="" class="img" id="img8"></a></li>
-            <li class="signo-zodiacal" id="signo9"><h3>Libra</h3><a href=""><img src="/public/img/libra.png" alt="" class="img" id="img9"></a></li>
-            <li class="signo-zodiacal" id="signo10"><h3>Escorpio</h3><a href=""><img src="/public/img/escorpio.png" alt="" class="img" id="img10"></a></li>
-            <li class="signo-zodiacal" id="signo11"><h3>Sagitario</h3><a href=""><img src="/public/img/sagitario.png" alt="" class="img" id="img11"></a></li>
-            <li class="signo-zodiacal" id="signo12"><h3>Capricornio</h3><a href=""><img src="/public/img/capricornio.png" alt="" class="img" id="img12"></a></li>
-        </ul>
-    </header>
-
-
-    <article>
-        <section class="container" id="info_1">
-            <div class="panel" id="panel1">
-                <h2>Acuario</h2>
-                <p>
-                    Los Acuario son tímidos y callados, pero al mismo tiempo, pueden ser excéntricos y enérgicos. 
-                    Sin embargo, en ambos casos, son pensadores y muy intelectuales, y aman ayudar a otros. 
-                    Son capaces de ver las dos caras de una situación sin prejuicios, lo cual les permite resolver 
-                    problemas.
-                </p> 
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-        <section class="container" id="info_2">
-            <div class="panel-img" id="panel2">
-                <img class="image-zodiacal" id="Acuario" src="/public/img/acuario.png" alt="">
-            </div>
-        </section>
-        <section class="container" id="info_3">
-            <div class="panel-img" id="panel3">
-                <img class="image-zodiacal" src="/public/img/piscis.png" alt="">
-            </div>
-        </section>
-        <section class="container" id="info_4">
-            <div class="panel" id="panel4">
-                <h2>Piscis</h2>
-                <p>
-                    Los Piscis son muy amistosos, así que siempre los encontrarás en compañía de gente diferente.
-                    Los Piscis son abnegados, siempre tienen la disposición de ayudar a los demás, sin esperar 
-                    recibir nada a cambio.
-                </p>
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-        <section class="container" id="info_5">
-            <div class="panel" id="panel5">
-                <h2>Aries</h2>
-                <p>
-                    Siendo el primer signo del zodíaco, la presencia de Aries casi siempre marca el inicio de 
-                    algo turbulento y enérgico. Las personas de éste signo están buscando continuamente dinamismo, 
-                    velocidad y competencia.
-                </p>
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-        <section class="container" id="info_6">
-            <div class="panel-img" id="panel6">
-                <img class="image-zodiacal" src="/public/img/aries.png" alt="">
-
-            </div>
-        </section>
-        <section class="container" id="info_7">
-            <div class="panel-img" id="panel7">
-                <img class="image-zodiacal" src="/public/img/tauro.png" alt="">
-
-            </div>
-        </section>
-        <section class="container" id="info_8">
-            <div class="panel" id="panel8">
-                <h2>Tauro</h2>
-                <p>
-                    Poderoso y confiable. Tauro es el primero cuando se trata de cosechar los frutos de su labor.
-                    Aman todo lo que sea bueno y hermoso y suelen rodearse de placeres materiales. Las personas
-                    nacidas bajo el signo de Tauro son muy sensuales y tienen un tacto mu agudo.
-                </p>
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-        <section class="container" id="info_9">
-            <div class="panel" id="panel9">
-                <h2>Geminis</h2>
-                <p>
-                    Expresivos y de pensamiento rápido, Géminis representa dos lados diferentes de personalidad y
-                    nunca estrás seguro con cuál de las dos te estás viendo. Géminis puede ser sociable, comunicativo
-                    y listo para la diversión, mientras que por otro lado, puede ser muy serio, pensativo, inquieto e 
-                    indeciso. Como un signo de aire, a Géminis le preocupan todos los aspectos de la mente.
-                </p>
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-        <section class="container" id="info_10">
-            <div class="panel-img" id="panel0">
-                <img class="image-zodiacal" src="/public/img/geminis.png" alt="">
-
-            </div>            
-        </section>
-        <section class="container" id="info_11">
-            <div class="panel-img" id="panel11">
-                <img class="image-zodiacal" src="/public/img/cancer.png" alt="">
-
-            </div>  
-        </section>
-
-        <section class="container" id="info_12">
-            <div class="panel" id="panel12">
-                <h2>Cancer</h2>
-                <p>
-                    Profundamente intuitivo y sentimental, Cáncer puede ser uno de los signos del zodiaco más difíciles 
-                    de llegar a conocer. Cáncer es muy emocional y sensible, se preocupa por su hogar y su familia, Cáncer 
-                    es simpático y suele ser muy apegado a la gente que lo rodea.
-                </p>
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-
-        <section class="container" id="info_13">
-            <div class="panel" id="panel13">
-
-                <h2>Leo</h2>
+        <div id="Acuario-container">
+            <section class="container" id="info_1">
+                <div class="panel" id="panel1">
+                    <h2>Acuario</h2>
                     <p>
-                        En el amor, Leo es apasionado, generoso y protector. Les encanta ser el centro de atención en una relación
-                        y disfrutan de demostrar su amor de manera grandiosa.
-
+                        Los Acuario son tímidos y callados, pero al mismo tiempo, pueden ser excéntricos y enérgicos. 
+                        Sin embargo, en ambos casos, son pensadores y muy intelectuales, y aman ayudar a otros. 
+                        Son capaces de ver las dos caras de una situación sin prejuicios, lo cual les permite resolver 
+                        problemas.
                     </p> 
-
+    
                     <form >
                         <br> <br>
                         <input id="text" type="email">
                         <button type="submit" id="suscribe"><strong>suscribe</strong></button>
                     </form>
-            </div>
-
-        </section>
-
-
-        <section class="container" id="info_14">
-            <div class="panel-img" id="panel14">
-                <img class="image-zodiacal" id="Acuario" src="/public/img/leo.png" alt="l">
-            </div>
-        </section>
-
-        <section class="container" id="info_15">
-            <div class="panel-img" id="panel15">
-                <img class="image-zodiacal" src="/public/img/virgo.png" alt="v">
-            </div>
-        </section>
-
-        <section class="container" id="info_16">
-            <div class="panel" id="panel16">
-                <h2>Virgo</h2>
-                <p>
-                    Virgo es reservado y leal en el amor. Se toman el tiempo para analizar a su pareja y suelen ser muy 
-                atentos, siempre buscando formas de mejorar la relación.
-                </p> 
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-
-        <section class="container" id="info_17">
-            <div class="panel" id="panel17">
-                <h2>Libra</h2>
-                <p>
-                    Libra busca el equilibrio y la armonía en el amor. Son románticos, encantadores y disfrutan de relaciones 
-                    en las que prevalezca la paz y la justicia.
-                </p> 
-
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
-
-        <section class="container" id="info_18">
-            <div class="panel-img" id="panel18">
-                <img class="image-zodiacal" id="Acuario" src="/public/img/libra.png" alt="">
-            </div>
-        </section>
+                </div>
+            </section>
+            <section class="container" id="info_2">
+                <div class="panel-img" id="panel2">
+                    <img class="image-zodiacal" id="Acuario" src="/public/img/acuario.png" alt="">
+                </div>
+            </section>
+        </div>
         
-        <section class="container" id="info_19">
-            <div class="panel-img" id="panel19">
-                <img class="image-zodiacal" src="/public/img/escorpio.png" alt="">
-            </div>
-        </section>
 
-        <section class="container" id="info_20">
-            <div class="panel" id="panel20">
-                <h2>Escorpio</h2>
-                <p>
-                    Escorpio es intenso y apasionado en el amor. Buscan una conexión profunda con su pareja y son muy 
-                    leales, aunque pueden ser celosos y protectores.
-                </p> 
 
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
 
-        <section class="container" id="info_21">
-            <div class="panel" id="panel21">
-                <h2>Sagitario</h2>
-                <p>
-                    Sagitario es aventurero y optimista en el amor. Buscan una relación libre y divertida, donde puedan 
-                explorar el mundo junto a su pareja.
-                </p> 
 
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
 
-        <section class="container" id="info_122">
-            <div class="panel-img" id="panel22">
-                <img class="image-zodiacal" id="Acuario" src="/public/img/sagitario.png" alt="">
-            </div>
-        </section>
 
-        <section class="container" id="info_23">
-            <div class="panel" id="panel23">
-                <h2>Capricornio</h2>
-                <p>
-                    Capricornio es serio y comprometido en el amor. Les gusta construir relaciones estables y duraderas,
-                    y son muy leales y protectores con su pareja.
-                </p> 
+        <div id="Piscis-container">
+            <section class="container" id="info_3">
+                <div class="panel-img" id="panel3">
+                    <img class="image-zodiacal" src="/public/img/piscis.png" alt="">
+                </div>
+            </section>
+            <section class="container" id="info_4">
+                <div class="panel" id="panel4">
+                    <h2>Piscis</h2>
+                    <p>
+                        Los Piscis son muy amistosos, así que siempre los encontrarás en compañía de gente diferente.
+                        Los Piscis son abnegados, siempre tienen la disposición de ayudar a los demás, sin esperar 
+                        recibir nada a cambio.
+                    </p>
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+        </div>
 
-                <form >
-                    <br> <br>
-                    <input id="text" type="email">
-                    <button type="submit" id="suscribe"><strong>suscribe</strong></button>
-                </form>
-            </div>
-        </section>
+
+
+
+        <div class="burbuja">
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:11;"></span>
+        </div>
+
+
+        <div id="Aries-container">
+            <section class="container" id="info_5">
+                <div class="panel" id="panel5">
+                    <h2>Aries</h2>
+                    <p>
+                        Siendo el primer signo del zodíaco, la presencia de Aries casi siempre marca el inicio de 
+                        algo turbulento y enérgico. Las personas de éste signo están buscando continuamente dinamismo, 
+                        velocidad y competencia.
+                    </p>
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+            <section class="container" id="info_6">
+                <div class="panel-img" id="panel6">
+                    <img class="image-zodiacal" src="/public/img/aries.png" alt="">
+    
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div id="Tauro-container">
+            <section class="container" id="info_7">
+                <div class="panel-img" id="panel7">
+                    <img class="image-zodiacal" src="/public/img/tauro.png" alt="">
+    
+                </div>
+            </section>
+            <section class="container" id="info_8">
+                <div class="panel" id="panel8">
+                    <h2>Tauro</h2>
+                    <p>
+                        Poderoso y confiable. Tauro es el primero cuando se trata de cosechar los frutos de su labor.
+                        Aman todo lo que sea bueno y hermoso y suelen rodearse de placeres materiales. Las personas
+                        nacidas bajo el signo de Tauro son muy sensuales y tienen un tacto mu agudo.
+                    </p>
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+
+        <div class="burbuja">
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:11;"></span>
+        </div>
+
+
+        <div id="Geminis-container">
+            <section class="container" id="info_9">
+                <div class="panel" id="panel9">
+                    <h2>Geminis</h2>
+                    <p>
+                        Expresivos y de pensamiento rápido, Géminis representa dos lados diferentes de personalidad y
+                        nunca estrás seguro con cuál de las dos te estás viendo. Géminis puede ser sociable, comunicativo
+                        y listo para la diversión, mientras que por otro lado, puede ser muy serio, pensativo, inquieto e 
+                        indeciso. Como un signo de aire, a Géminis le preocupan todos los aspectos de la mente.
+                    </p>
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+            <section class="container" id="info_10">
+                <div class="panel-img" id="panel0">
+                    <img class="image-zodiacal" src="/public/img/geminis.png" alt="">
+    
+                </div>            
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="Cancer-container">
+            <section class="container" id="info_11">
+                <div class="panel-img" id="panel11">
+                    <img class="image-zodiacal" src="/public/img/cancer.png" alt="">
+    
+                </div>  
+            </section>
+    
+            <section class="container" id="info_12">
+                <div class="panel" id="panel12">
+                    <h2>Cancer</h2>
+                    <p>
+                        Profundamente intuitivo y sentimental, Cáncer puede ser uno de los signos del zodiaco más difíciles 
+                        de llegar a conocer. Cáncer es muy emocional y sensible, se preocupa por su hogar y su familia, Cáncer 
+                        es simpático y suele ser muy apegado a la gente que lo rodea.
+                    </p>
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+
+        <div class="burbuja">
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:11;"></span>
+        </div>
+
+
+
+
+
+        <div id="Leo-container">
+            <section class="container" id="info_13">
+                <div class="panel" id="panel13">
+                    <h2>Leo</h2>
+                        <p>
+                            En el amor, Leo es apasionado, generoso y protector. Les encanta ser el centro de atención en una relación
+                            y disfrutan de demostrar su amor de manera grandiosa.
+    
+                        </p> 
+                        <form >
+                            <br> <br>
+                            <input id="text" type="email">
+                            <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                        </form>
+                </div>
+    
+            </section>
+            <section class="container" id="info_14">
+                <div class="panel-img" id="panel14">
+                    <img class="image-zodiacal" id="Acuario" src="/public/img/leo.png" alt="l">
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="Virgo-container">
+            <section class="container" id="info_15">
+                <div class="panel-img" id="panel15">
+                    <img class="image-zodiacal" src="/public/img/virgo.png" alt="v">
+                </div>
+            </section>
+    
+            <section class="container" id="info_16">
+                <div class="panel" id="panel16">
+                    <h2>Virgo</h2>
+                    <p>
+                        Virgo es reservado y leal en el amor. Se toman el tiempo para analizar a su pareja y suelen ser muy 
+                    atentos, siempre buscando formas de mejorar la relación.
+                    </p> 
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        
+
+
+
+
+        <div class="burbuja">
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:11;"></span>
+        </div>
+
+
+
+
+        <div id="Libra-container">
+            <section class="container" id="info_17">
+                <div class="panel" id="panel17">
+                    <h2>Libra</h2>
+                    <p>
+                        Libra busca el equilibrio y la armonía en el amor. Son románticos, encantadores y disfrutan de relaciones 
+                        en las que prevalezca la paz y la justicia.
+                    </p> 
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+            <section class="container" id="info_18">
+                <div class="panel-img" id="panel18">
+                    <img class="image-zodiacal" id="Acuario" src="/public/img/libra.png" alt="">
+                </div>
+            </section>
+    
+        </div>
+
+
+
 
         
-        <section class="container" id="info_24">
-            <div class="panel-img" id="panel24">
-            <img class="image-zodiacal" src="/public/img/capricornio.png" alt="">
-            
-            </div>
-        </section>
+        <div id="Escorpio-container">
+            <section class="container" id="info_19">
+                <div class="panel-img" id="panel19">
+                    <img class="image-zodiacal" src="/public/img/escorpio.png" alt="">
+                </div>
+            </section>
+            <section class="container" id="info_20">
+                <div class="panel" id="panel20">
+                    <h2>Escorpio</h2>
+                    <p>
+                        Escorpio es intenso y apasionado en el amor. Buscan una conexión profunda con su pareja y son muy 
+                        leales, aunque pueden ser celosos y protectores.
+                    </p> 
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+        </div>
 
+
+
+        <div class="burbuja">
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:11;"></span>
+        </div>
+
+
+
+        <div id="Sagitario-container"> 
+            <section class="container" id="info_21">
+                <div class="panel" id="panel21">
+                    <h2>Sagitario</h2>
+                    <p>
+                        Sagitario es aventurero y optimista en el amor. Buscan una relación libre y divertida, donde puedan 
+                    explorar el mundo junto a su pareja.
+                    </p> 
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+            <section class="container" id="info_122">
+                <div class="panel-img" id="panel22">
+                    <img class="image-zodiacal" id="Acuario" src="/public/img/sagitario.png" alt="">
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+        <div id="Capricornio-container">
+            <section class="container" id="info_23">
+                <div class="panel" id="panel23">
+                    <h2>Capricornio</h2>
+                    <p>
+                        Capricornio es serio y comprometido en el amor. Les gusta construir relaciones estables y duraderas,
+                        y son muy leales y protectores con su pareja.
+                    </p> 
+    
+                    <form >
+                        <br> <br>
+                        <input id="text" type="email">
+                        <button type="submit" id="suscribe"><strong>suscribe</strong></button>
+                    </form>
+                </div>
+            </section>
+            <section class="container" id="info_24">
+                <div class="panel-img" id="panel24">
+                <img class="image-zodiacal" src="/public/img/capricornio.png" alt="">
+                
+                </div>
+            </section>
+        </div>
     </article>
 
 
-    <script src="/public/Java/signos.js"></script>
+    <script src="/public/Java/signoso.js"></script>
 </body>
 </html>

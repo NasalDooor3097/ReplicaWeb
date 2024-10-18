@@ -1,25 +1,23 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
-
 body
 {
     background-color:white;
     font-family: "Montserrat", "sans-serif";
 }
 
-
 .burbuja
 {
-    position: relative;
+    position: absolute;
     display: flex;
     filter: blur(10px);
 }
+
+.panel::before {
+    content: "";
+    display: block;
+    height: 70px; /* Ajusta esto a la altura de tu barra de navegación */
+    margin-top: -70px; /* Este valor debería ser negativo y de la misma altura */
+  }
+  
 
 .burbuja span
 {
@@ -60,6 +58,19 @@ body
     }
 }
 
+header
+{
+    position:fixed;
+    background-color: white;
+    top: -10px;
+    width: 100%;
+
+}
+
+article
+{
+    margin-top: 200px;
+}
 
 
 .navegacion
@@ -67,10 +78,7 @@ body
     list-style: none;
     padding: 0;
     width: 90%;
-    max-width: 1000000000000000px;
-    margin:auto;
-    
-
+    margin:0;
 }
 
 .navegacion li a
@@ -207,15 +215,17 @@ article
 
 .image-zodiacal
 {
-    z-index: 100px;
+    margin: 20px;
+    padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 100%;
+    width: 500px;
     height: 450px;
-    border-radius: 20px;
+    border-radius: 70px;
 }
+
 
 
 #text
@@ -235,6 +245,13 @@ article
     border-radius: 7px;
     width: 100px;
     height: 30px;
+}
+
+#Tauro-container, #Cancer-container, #Tauro-container, #Piscis-container, #Virgo-container, #Escorpio-container, #Capricornio-container
+{
+    display: inline-block;
+    background-color: antiquewhite;
+    border-radius: 40px;
 }
 
 #info_1
